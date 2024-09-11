@@ -1,45 +1,57 @@
 body {
-    background-color: #0a0a23;
-  }
-  
-  #text {
-    background-color: #0a0a23;
-    color: #ffffff;
-    padding: 10px;
-  }
-  
-  #game {
-    max-width: 500px;
-    max-height: 400px;
-    background-color: #ffffff;
-    color: #ffffff;
-    margin: 30px auto 0px;
-    padding: 10px;
-  }
-  
-  #controls,
-  #stats {
-    border: 1px solid #0a0a23;
-    padding: 5px;
-    color: #0a0a23;
-  }
-  
-  #monsterStats {
-    display: none;
-    border: 1px solid #0a0a23;
-    padding: 5px;
-    color: #ffffff;
-    background-color: #c70d0d;
-  }
-  
-  .stat {
-    padding-right: 10px;
-  }
-  
-  button {
-    cursor: pointer;
-    color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
-  }
+  background-color: #0a0a23;
+  font-family: Arial, sans-serif; /* Optional: Adds a better font */
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 20px; /* Increased padding */
+  font-size: 1.2em; /* Increased font size */
+}
+
+#game {
+  max-width: 800px; /* Increased width */
+  max-height: 600px; /* Increased height */
+  background-color: #ffffff;
+  color: #0a0a23; /* Changed text color to match better */
+  margin: 30px auto 0px;
+  padding: 20px; /* Increased padding */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 10px; /* Increased padding */
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 10px; /* Increased padding */
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 20px; /* Increased padding */
+  font-size: 1.2em; /* Increased font size */
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  padding: 15px; /* Increased padding */
+  font-size: 1.1em; /* Increased font size */
+  border-radius: 5px; /* Optional: Adds rounded corners */
+  margin: 5px; /* Adds margin between buttons */
+}
+
+button:hover {
+  background-color: #ffac33; /* Slight color change on hover */
+}

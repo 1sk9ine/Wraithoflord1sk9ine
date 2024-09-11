@@ -228,6 +228,7 @@ function defeatMonster() {
   gold += Math.floor(monsters[fighting].level * 6.7);
   xp += monsters[fighting].level;
   goldText.innerText = gold;
+  xpText.innerText = xp; // Ensure this line updates the XP display
   update(locations[4]);
 }
 
@@ -247,7 +248,7 @@ function restart() {
   inventory = ["stick"];
   goldText.innerText = gold;
   healthText.innerText = health;
-  xpText.innerText = xp;
+  xpText.innerText = xp; // Ensure XP is reset
   goTown();
 }
 
@@ -285,4 +286,3 @@ function pick(guess) {
     }
   }
 }
-
